@@ -522,88 +522,32 @@ public class FirstClass {
         // System.out.println();
         // }
 
-        //Pascal triangle
-
-        int triangle[][] = new int[5][5];
-
-        for(int i=0; i<5; i++)
-        {
-            for(int k=1; k<5-i; k++)
-            {
-                System.out.print(" ");
-            }
-
-            for(int j=0; j<=i; j++)
-            {
-                if(j==0 || j==i)
-                {
-                    triangle[i][j] = 1;
-                }
-                else
-                {
-                    triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j];
-                }
-                System.out.print(triangle[i][j] + " ");
-            }
-        System.out.println();
-        }
-
-
-        //hw - hollow butterfly
-
         // for(int i=1; i<=5; i++)
         // {
-        //     for(int j=1; j<=i; j++)
+        //     for(int k=1; k<=5-i; k++)
         //     {
-        //         if(j==1 || i==j)
-        //         System.out.print("* ");
-        //         else
-        //         System.out.print("  ");
-        //     }
-
-        //     for(int k=1; k<=2*(5-i);k++)
-        //     {
-        //         System.out.print("  ");
+        //         System.out.print(" ");
         //     }
 
         //     for(int j=1; j<=i; j++)
         //     {
-        //         if(j==1 || i==j)
-        //         System.out.print("* ");
-        //         else
-        //         System.out.print("  ");
+        //         System.out.print(j + " ");
         //     }
-
-        // System.out.println();
-        // }
-
-        // for(int i=5; i>=1; i--)
-        // {
-        //     for(int j=1; j<=i; j++)
-        //     {
-        //         if(j==1 || i==j)
-        //         System.out.print("* ");
-        //         else
-        //         System.out.print("  ");
-        //     }
-
-        //     for(int k=1; k<=2*(5-i);k++)
-        //     {
-        //         System.out.print("  ");
-        //     }
-
-        //     for(int j=1; j<=i; j++)
-        //     {
-        //         if(j==1 || i==j)
-        //         System.out.print("* ");
-        //         else
-        //         System.out.print("  ");
-        //     }
-
         // System.out.println();
         // }
 
 
+        //hw
+
+        for(int i=1; i<=5; i++)
+        {
+            for(int j=1; j<=i; j++)
+            {
+                System.out.print("*");
+            }
+
+            for(int k=1; k<=2)
+        }
 
     }
 }

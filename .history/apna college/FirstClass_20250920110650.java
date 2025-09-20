@@ -523,19 +523,19 @@ public class FirstClass {
         // }
 
         //Pascal triangle
-
+        
         int triangle[][] = new int[5][5];
 
-        for(int i=0; i<5; i++)
+        for(int i=1; i<=5; i++)
         {
-            for(int k=1; k<5-i; k++)
+            for(int k=1; k<=5-i; k++)
             {
                 System.out.print(" ");
             }
 
-            for(int j=0; j<=i; j++)
+            for(int j=1; j<=i; j++)
             {
-                if(j==0 || j==i)
+                if(j==1 || j==i)
                 {
                     triangle[i][j] = 1;
                 }

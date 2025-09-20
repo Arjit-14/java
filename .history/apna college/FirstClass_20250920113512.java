@@ -533,9 +533,9 @@ public class FirstClass {
                 System.out.print(" ");
             }
 
-            for(int j=0; j<=i; j++)
+            for(int j=0; j<i; j++)
             {
-                if(j==0 || j==i)
+                if(j==0 || j==i-1)
                 {
                     triangle[i][j] = 1;
                 }
